@@ -22,10 +22,11 @@
  */
 // Answer question 2 below
 var dateOfMeasurementinDays = 1.0
+let numberOfTimeMeasuredPerDay = 24.0
 var timeOfMeasurementMilitaryTime = 14.0
 var currentHeightOfSnowfallInCM = 20.0
 var preveiousDaySnowFallInCM = 18.0
-let totalSnowfall =  currentHeightOfSnowfallInCM - preveiousDaySnowFallInCM * dateOfMeasurementinDays
+let totalSnowfall =  ((currentHeightOfSnowfallInCM - preveiousDaySnowFallInCM) * numberOfTimeMeasuredPerDay) * dateOfMeasurementinDays
 
 //I choose var for all of the follwoing statements because all of those are not constant- they will change and their numbers will change over time. I choose let for the last statement because that formula no matter what will not chnage despite the numbers changing. 
 /*:

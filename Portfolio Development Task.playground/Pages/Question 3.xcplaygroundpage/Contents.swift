@@ -21,7 +21,14 @@
  
  */
 // Answer question 3 below
+let hairDonationAmount =  55.75
+var headShaveCount = 12.0
+let runTrainingDonationAmount = 15.35
+var runTrainingCount = 73.0
 
+let totalDonationAmount = (hairDonationAmount * headShaveCount) + (runTrainingDonationAmount * runTrainingCount)
+
+// I had the donations amounts be constants (as well as the total one), because those numbers would never change, and the formula would never change. The amount of people participtaing have the possibility to change, so those are variables. 
 /*:
  ## Now share your understanding
  
